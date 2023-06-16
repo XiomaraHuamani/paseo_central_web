@@ -1,0 +1,88 @@
+.container__general {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin: auto;
+    background-image: url(https://cdn.discordapp.com/attachments/1042273757160558683/1111963200360034334/bg-footer-newsletter.jpg);
+    /*background-image: url(https://cdn.discordapp.com/attachments/1042273757160558683/1108822041706123415/PaseoCentral.png);*/
+
+}
+
+.eventos__linea {
+    margin-top: 1px;
+    height: 3px;
+    width: 25%;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+.image__large {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-right: -1%;
+    padding-left: -1%;
+    margin: auto;
+
+}
+
+.container__box {
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+
+.box__celda1 {
+    color: #ffffff;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-family: "Joy Sans";
+    font-size: 1.5rem;
+    line-height: 1.16;
+    font-weight: 600;
+}
+
+.box__celda3 {
+    background-color: #ffffff00;
+
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form label {
+    font-size: 50px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    background-color: #ffffff00;
+}
+
+label:hover,
+label:hover~label {
+    color: orange;
+}
+
+input[type="radio"]:checked~label {
+    color: orange;
+}
