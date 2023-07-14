@@ -14,7 +14,7 @@ import classNames from "classnames";
 export const Cartillas = () => {
   return (
     <>
-      <div className={classNames("container-fluid  p-5", styles.fondo_cart)}>
+      <div className={classNames("container-fluid   ", styles.fondo_cart)}>
 
 
         <Swiper

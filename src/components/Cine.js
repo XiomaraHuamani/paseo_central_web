@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Scrollbar, Autoplay } from "swiper";
-
+import "./navbar.css";
 // Import Swiper styles
 import styles from "./App.module.css";
 import classNames from "classnames";
@@ -18,7 +18,7 @@ export const Cine = () => {
         <div className={classNames(styles.fondo__cine,"conteiner-fluid" )}>
           <h1>Peliculas de estreno</h1>
           <div className={styles.box__reco}>
-            <div className="container-fluid  justify-content-center ">
+            <div className="justify-content-center">
               <Swiper
                 slidesPerView={3}
                 spaceBetween={0}

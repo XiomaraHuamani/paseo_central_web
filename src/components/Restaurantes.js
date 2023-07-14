@@ -6,7 +6,7 @@ import "swiper/swiper.min.css";
 import "swiper/css";
 import classNames from "classnames";
 import styles from "./App.module.css";
-
+import "./navbar.css";
 // import required modules
 export const Restaurantes = () => {
   return (
@@ -61,7 +61,7 @@ export const Restaurantes = () => {
               </div>
 
               <div className={classNames(styles.card_body)}>
-                <h3>Popeyes</h3>
+                <h3>Nitos</h3>
                 <p>ven disfruta</p>
                 <a href="#" className="button">
                   Mas ifno
@@ -84,7 +84,7 @@ export const Restaurantes = () => {
               </div>
 
               <div className={classNames(styles.card_body)}>
-                <h3>Popeyes</h3>
+                <h3>Abrazador</h3>
                 <p>ven disfruta</p>
                 <a href="#" className="button">
                   Mas info
@@ -106,7 +106,7 @@ export const Restaurantes = () => {
               </div>
 
               <div className={classNames(styles.card_body)}>
-                <h3>Popeyes</h3>
+                <h3>Doradas</h3>
                 <p>ven disfruta</p>
                 <a href="#" className="button">
                   Mas info

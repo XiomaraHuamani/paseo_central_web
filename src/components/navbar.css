@@ -37,7 +37,12 @@
     --font-weight-bold: 700;
 }
 
-
+.container-fluid   {
+   padding: 3% 0% 3% 0%;
+}
+.container    {
+    padding: 3% 0% 5% 0%;
+ }
 /*---------------------------------------
     TYPOGRAPHY               
   -----------------------------------------*/
@@ -61,6 +66,7 @@ h6 {
 
 h1 {
     font-size: var(--h1-font-size);
+    padding: 0% 0% 2% 0%;
 }
 
 h2 {
@@ -376,3 +382,19 @@ strong {
     width: 30%;
     height: auto;
 }
+#img_ruleta{
+    position: relative;
+    z-index: 1;
+  }
+  .img_ruleta{
+    /*animation-name: infinite-spinning;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;*/
+    /*animation-iteration-count: infinite;*/
+    transition: all 4s ease;
+    overflow-x: hidden
+  }
+  
+
+  

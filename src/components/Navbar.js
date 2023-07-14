@@ -6,19 +6,19 @@ import "./navbar.css";
 import img1 from "./img/logo2.png";
 
 export const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  } 
-    return (
-      <>
-      <div className="row ">
-        <div className="container-fluid   overflow-hidden" >
+  }
+  return (
+    <>
+      <div className="row">
+        <div className=".container-xxl   overflow-hidden" >
           <nav className={classNames("navbar", "navbar-expand-lg", "navbar-transparent", "fixed-top", "bg-black-transparent", "shadow")}>
-            <div className={classNames("container")}>
+            <div className={classNames("container-sm  ")}>
               <a className={classNames("navbar-brand")} href="/home">
-                <img src={img1} className="logoimgnav" />
+                Paseo Central
               </a>
 
               <a href="ticket.html" className={classNames("btn", "custom-btn", "d-lg-none", "ms-auto", "me-4")}>
@@ -80,6 +80,6 @@ export const Navbar = () => {
       </div>
 
     </>
-    );
+  );
 };
 export default Navbar;

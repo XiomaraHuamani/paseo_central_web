@@ -1,5 +1,4 @@
 import { Cine } from "../components/Cine";
-
 import { Footer } from "../components/Footer";
 import { Cartillas } from "../components/Cartillas";
 import { Eventos } from "../components/Eventos/Eventos";
@@ -11,19 +10,25 @@ import { SliderInfo } from "../components/SliderInfo";
 import { Show_infantiles } from "../components/show_infantiles/Show_infantiles";
 import { Restaurantes } from "../components/Restaurantes";
 import { Conciertos } from "../components/Conciertos";
-
 function Home() {
   return (
     <div>
       <Navbar />
+
       <Header />
+
       <Cartillas />
+
       <Promociones />
+
       <Conciertos />
-      <SliderInfo />
 
       <Cine />
+
+      <SliderInfo />
+
       <Restaurantes />
+
       <Footer />
     </div>
   );

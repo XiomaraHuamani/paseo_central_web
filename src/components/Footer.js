@@ -12,7 +12,7 @@ export const Footer = () => {
               
             </div>
             <div className={styles.terms}>
-              <p>
+              <p color="white">
                 Tu mall arequipeño con el mejor entretenimiento familiar. Calle
                 Arturo Ibañez 105( Costado del Terrapuerto), Arequipa, Peru
               </p>
@@ -52,7 +52,7 @@ export const Footer = () => {
         </div>
         <div className={styles.box__copyright}>
           <hr />
-          <p>
+          <p >
             Ven visitanos todo los dias! <b> Paseo Central</b>
           </p>
         </div>

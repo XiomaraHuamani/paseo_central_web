@@ -313,10 +313,10 @@ h1 {
 }
 
 .promo_card {
-  width: 85%;
+  width: 90%;
   height: auto;
   border-radius: 40px;
-  border: rgba(212, 156, 51, 0.395) solid 1px;
+  border: rgba(226, 192, 130, 0.395) solid 1px;
 }
 
 .promo_card img {
@@ -327,21 +327,27 @@ h1 {
 }
 
 .promo_con {
-  width:85%;
+  width: 85%;
   background-color: white;
 
   margin-top: -10%;
   height: auto;
-  border-radius: 7px   ;
+  border-radius: 7px;
   position: relative;
 
 }
 
+.promo_con hr{
+  border: none;
+  height: 1px;
+  background-color: #000000;  
+}
+
 .promo_con a {
-  border: #5a5ec7 solid 1px;
+  border: #000000 solid 1px;
   border-radius: 10px;
   padding: 5px 15px 5px 15px;
-  margin: 10px  0px 10px 0px;
+  margin: 10px 0px 10px 0px;
 }
 
 .conte_promo {
@@ -349,47 +355,82 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 
-/*Conciertos css*/
-.container_conciertos img {
-  width: 40%;
-  height: auto;
-  text-align: center;
-  margin-left: 60%;
-  border-radius: 1%;
+/*Conciertos css*/.scheduleSection {
+  background-image: url('../components/img/nainoa-shizuru-unsplash-blur.jpg');
+  background-color: #242424;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.tableResponsive {
+	filter: drop-shadow(2px 2px 4px #606060);
 }
 
-.col_conciertos {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-color: #2ace9b;
-  border-radius: 5px;
+.scheduleTable {
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
 }
 
-.col_conciertos i {
-  color: rgb(255, 255, 255);
-  margin: 15px;
-  font-size: 40px;
+.scheduleTable .bgWarning {
+  background: #f0a5a5 !important;
 }
 
-.col_conciertos h3 {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 25px;
+.scheduleTable thead th {
+  background-color: var(--secondary-color);
 }
 
-.col_conciertos p {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 15px;
+.scheduleTable th,
+.scheduleTable tr,
+.scheduleTable td {
+  border-bottom-color: #363a3e;
+  padding: 30px;
 }
 
-@media screen and (max-width: 800px) {
-  .container_conciertos img {
-    width: 70%;
-    height: auto;
-    align-items: center;
-    margin-left: 60px;
-  }
+.scheduleTable tr:last-child th,
+.scheduleTable tr:last-child td {
+  border-bottom-color: transparent;
+}
+
+.scheduleTable thead th {
+  border-right: 1px solid #c7460a;
+  border-bottom-color: transparent;
+}
+
+.scheduleTable th + td {
+  border-bottom: 0;
+}
+
+.scheduleTable thead th:last-child {
+  border-right-color: transparent;
+}
+
+.scheduleTable .popBackgroundImage {
+  background-image: url('../components/img/joecalih-UmTZqmMvQcw-unsplash.jpg');
+}
+
+.scheduleTable .rockBackgroundImage {
+  background-image: url('../components/img/abstral-official-bdlMO9z5yco-unsplash.jpg');
+}
+
+.scheduleTable .countryBackgroundImage {
+  background-image: url('../components/img/soundtrap-rAT6FJ6wltE-unsplash.jpg');
+}
+
+.tableBackground_image_wrap {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: none;
+  position: relative;
+}
+
+.scheduleTable h3,
+.scheduleTable p {
+  color: var(--white-color);
+  position: relative;
+  z-index: 2;
 }
 
 /*Sliderinfo css*/
@@ -423,7 +464,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Joy Sans";
+  
   font-size: 1.5rem;
   line-height: 1.16;
   font-weight: 600;
@@ -482,7 +523,7 @@ input[type="radio1"]:checked~label {
 /* container slider*/
 .box__reco {
   margin-left: 5%;
-  padding-left: 0;
+
 }
 
 .swiper_slide_transform {
@@ -527,7 +568,7 @@ h1:hover {
   height: auto;
   max-width: 100%;
 
-  margin-top: 30px;
+
   margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.291);
@@ -573,7 +614,7 @@ h1:hover {
 }
 
 .img_re1 {
-  background-image: url(./img/comidas1.jpg);
+  background-image: url(./img/nitos.jpg);
 
   height: auto;
   padding: 40%;
@@ -584,7 +625,7 @@ h1:hover {
 }
 
 .img_re2 {
-  background-image: url(./img/comidas2.jpg);
+  background-image: url(./img/abraza.jpg);
 
   height: auto;
   padding: 40%;
@@ -608,6 +649,7 @@ h1:hover {
   width: 100%;
   height: auto;
   border-radius: 20px;
+
 }
 
 .cards_textr {
@@ -672,13 +714,14 @@ footer {
   padding: 50px 0px;
   background-color: #e94b4b;
   background-size: cover;
+
 }
 
 .container__footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   margin-top: 100px;
 }
@@ -686,12 +729,16 @@ footer {
 .box__footer {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px;
 }
 
 .box__footer .logo img {
   width: 180px;
   margin-top: -20%;
+}
+
+.terms p {
+  color: white;
 }
 
 .terms {
@@ -736,8 +783,8 @@ footer {
 
 .box__copyright hr {
   border: none;
-  height: 1px;
-  background-color: #000000;
+  height: 2px;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 720px) {
@@ -752,5 +799,53 @@ footer {
 
   .box__footer {
     padding: 10px;
+  }
+}
+
+/*Ruleta css*/
+.fondo_rul {
+  background-image: url(./img/gamer.jpeg);
+  padding-bottom: 11%;
+}
+
+#img_ruleta {
+  position: relative;
+  z-index: 1;
+}
+
+.img_ruleta {
+  /*animation-name: infinite-spinning;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;*/
+  /*animation-iteration-count: infinite;*/
+  transition: all 4s ease;
+  overflow-x: hidden
+}
+
+.btn-warning.btn-orange,
+.btn-warning.btn-orange:focus,
+.btn-warning.btn-orange:hover {
+  color: #fff;
+  background-color: #ff2244;
+  border-color: #ff2244;
+  position: relative;
+  z-index: 2;
+}
+
+.ruleta_puntos {
+  color: #fff;
+  text-shadow: 1px 1px 1px #ff2244;
+  text-transform: uppercase;
+}
+
+@keyframes infinite_spinning {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    /*transform: rotate(360deg);*/
+    transform: rotate(1100deg);
   }
 }

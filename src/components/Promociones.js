@@ -11,18 +11,19 @@ import img2 from "./img/promo2.jpg"
 import img3 from "./img/promo3.jpg"
 import img4 from "./img/promo4.jpg"
 import styles from "./App.module.css";
+import "./navbar.css";
 export const Promociones = () => {
   return (
     <>
       <div
         className={classNames(
           styles.promos,
-          "container-fluid border border-dark"
+          "container-fluid"
         )}
       >
         <h1>Promociones del mes</h1>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={3}
           spaceBetween={30}
           className={styles.myswiper_promo}
 
@@ -35,10 +36,13 @@ export const Promociones = () => {
               <div className={styles.conte_promo}>
                 <center>
                   <div className={classNames(styles.promo_con)}>
-
-                    <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    <h6>Desceunto en cine solo en paso central </h6>
+                    <br />
+                    <p>d  isfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
                     </p>
-                    <a href="#" className="button">
+                    
+                    <a href="#" className="button ">
+
                       Mas ifno
                     </a>
 
@@ -56,7 +60,9 @@ export const Promociones = () => {
               <div className={styles.conte_promo}>
                 <center>
                   <div className={classNames(styles.promo_con)}>
-                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    <h6>Desceunto en cine solo en paso central </h6>
+                    <br />
+                    <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
                     </p>
 
                     <a href="#" className="button">
@@ -77,7 +83,9 @@ export const Promociones = () => {
               <div className={styles.conte_promo}>
                 <center>
                   <div className={classNames(styles.promo_con)}>
-                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    <h6>Desceunto en cine solo en paso central </h6>
+                    <br />
+                    <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
                     </p>
 
                     <a href="#" className="button">
@@ -98,8 +106,11 @@ export const Promociones = () => {
               <div className={styles.conte_promo}>
                 <center>
                   <div className={classNames(styles.promo_con)}>
-                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
-                    </p>  
+                    <h6>Desceunto en cine solo en paso central </h6>
+                    <br />
+                    <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    </p>
+
                     <a href="#" className="button">
                       Mas ifno
                     </a>
