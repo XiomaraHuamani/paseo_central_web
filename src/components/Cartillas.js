@@ -15,6 +15,8 @@ export const Cartillas = () => {
   return (
     <>
       <div className={classNames("container-fluid  p-5", styles.fondo_cart)}>
+
+
         <Swiper
           slidesPerView={4}
           spaceBetween={0}
@@ -46,6 +48,7 @@ export const Cartillas = () => {
             },
           }}
         >
+
           <SwiperSlide>
             <div className={styles.cart__viwer}>
               <img src={img1} />
@@ -79,8 +82,11 @@ export const Cartillas = () => {
               </div>
             </div>
           </SwiperSlide>
+
         </Swiper>
+
       </div>
+
     </>
   );
 };

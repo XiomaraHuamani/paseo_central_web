@@ -1,11 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Scrollbar, Autoplay } from "swiper";
+import { Autoplay } from "swiper";
 import "swiper/swiper.min.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import React from "react";
 import classNames from "classnames";
+import img1 from "./img/promo1.jpg"
+import img2 from "./img/promo2.jpg"
+import img3 from "./img/promo3.jpg"
+import img4 from "./img/promo4.jpg"
 import styles from "./App.module.css";
 export const Promociones = () => {
   return (
@@ -19,57 +23,96 @@ export const Promociones = () => {
         <h1>Promociones del mes</h1>
         <Swiper
           slidesPerView={4}
-          spaceBetween={20}
-          loop={true}
-          slidesPerGroup={3}
-          autoplay={{
-            delay: 3000,
-            pauseOnMouseEnter: true,
-          }}
-          modules={[Autoplay]}
-          className="mySwiper"
-          breakpoints={{
-            // when window width is >= 320px
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 10,
-              slidesPerGroup: 1,
-            },
-            // when window width is >= 480px
-            480: {
-              slidesPerView: 1,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-            },
-            600: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-            },
+          spaceBetween={30}
+          className={styles.myswiper_promo}
 
-            // when window width is >= 640px
-            640: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-              slidesPerGroup: 3,
-            },
-          }}
         >
           <SwiperSlide>
-            <div classname={styles.card}>
-              <img
-                src="https://www.washingtonpost.com/resizer/9YWv-qOa9uW7CQZ9UGiW23eTZzU=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BTCNJJN2Y43KPHPXPQWPASXRKM.jpg"
-                alt="Avatar"
-                classname={styles.image}
-              />
-              <div classname="container">
-                <h3>John Doe</h3>
-                <p>Architect & Engineer</p>
+            <div className={classNames("card", styles.promo_card)}>
+              <div>
+                <img src={img1} />
+              </div>
+              <div className={styles.conte_promo}>
+                <center>
+                  <div className={classNames(styles.promo_con)}>
+
+                    <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    </p>
+                    <a href="#" className="button">
+                      Mas ifno
+                    </a>
+
+                  </div>
+
+                </center>
               </div>
             </div>
           </SwiperSlide>
+          <SwiperSlide>
+            <div className={classNames("card", styles.promo_card)}>
+              <div>
+                <img src={img2} />
+              </div>
+              <div className={styles.conte_promo}>
+                <center>
+                  <div className={classNames(styles.promo_con)}>
+                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    </p>
+
+                    <a href="#" className="button">
+                      Mas ifno
+                    </a>
+
+                  </div>
+
+                </center>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={classNames("card", styles.promo_card)}>
+              <div>
+                <img src={img3} />
+              </div>
+              <div className={styles.conte_promo}>
+                <center>
+                  <div className={classNames(styles.promo_con)}>
+                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    </p>
+
+                    <a href="#" className="button">
+                      Mas ifno
+                    </a>
+
+                  </div>
+
+                </center>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={classNames("card", styles.promo_card)}>
+              <div>
+                <img src={img4} />
+              </div>
+              <div className={styles.conte_promo}>
+                <center>
+                  <div className={classNames(styles.promo_con)}>
+                  <p>disfruta de tu cine al 50% solo en paseo central solo con pelicula en la lista
+                    </p>  
+                    <a href="#" className="button">
+                      Mas ifno
+                    </a>
+
+                  </div>
+
+                </center>
+              </div>
+            </div>
+          </SwiperSlide>
+
         </Swiper>
-      </div>
+      </div >
     </>
   );
 };

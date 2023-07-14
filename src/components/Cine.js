@@ -21,7 +21,7 @@ export const Cine = () => {
             <div className="container-fluid  justify-content-center ">
               <Swiper
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={0}
                 loop={true}
                 slidesPerGroup={3}
                 autoplay={{

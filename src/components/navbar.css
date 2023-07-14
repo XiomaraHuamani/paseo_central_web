@@ -84,7 +84,7 @@ h6 {
 }
 
 p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-light);
 }
@@ -371,4 +371,8 @@ strong {
     h5 {
         font-size: 20px;
     }
+}
+.logoimgnav{
+    width: 30%;
+    height: auto;
 }
