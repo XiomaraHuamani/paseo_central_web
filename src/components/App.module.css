@@ -258,28 +258,31 @@ h1 {
 
 .my__swiper {
   width: 60%;
+
+
+
+
 }
 
-.cart__carta {
-  border-color: 5px solid black;
-  height: 10%;
-}
 
 .cart__viwer {
   align-items: center;
   text-align: center;
-  width: 90%;
-  margin-right: 50px;
-  margin-top: 15px;
+  width: 70%;
+  height: 175PX;
+  margin: 10px 50px 15px 45px;
+  border-radius: 10px;
 }
 
 .cart__viwer img {
-  width: 50%;
+  width: 76%;
   height: auto;
+  margin-top: 5px;
+
 }
 
 .cart__viwer a {
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 1.4vw;
   height: auto;
 }
@@ -288,6 +291,7 @@ h1 {
   transform: scale(1.08);
   color: #000000;
   transition: 1s;
+  background-color: #f0a5a5;
 }
 
 @media screen and (max-width: 720px) {
@@ -337,10 +341,15 @@ h1 {
 
 }
 
-.promo_con hr{
+.promo_con h6 {
+  color: #000;
+  font-family: harabara;
+}
+
+.promo_con hr {
   border: none;
   height: 1px;
-  background-color: #000000;  
+  background-color: #000000;
 }
 
 .promo_con a {
@@ -355,16 +364,18 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 
-/*Conciertos css*/.scheduleSection {
-  background-image: url('../components/img/nainoa-shizuru-unsplash-blur.jpg');
+/*Conciertos css*/
+.scheduleSection {
+  background-image: url('../components/img/paseo2.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
 }
+
 .tableResponsive {
-	filter: drop-shadow(2px 2px 4px #606060);
+  filter: drop-shadow(2px 2px 4px #606060);
 }
 
 .scheduleTable {
@@ -398,7 +409,7 @@ h1 {
   border-bottom-color: transparent;
 }
 
-.scheduleTable th + td {
+.scheduleTable th+td {
   border-bottom: 0;
 }
 
@@ -430,7 +441,7 @@ h1 {
 .scheduleTable p {
   color: var(--white-color);
   position: relative;
-  z-index: 2;
+  z-index: 2;
 }
 
 /*Sliderinfo css*/
@@ -438,7 +449,9 @@ h1 {
   padding-top: 5%;
   padding-bottom: 10%;
   margin: auto;
-  background-image: url(./img/bg-footer-newsletter.jpg);
+  background-image: url(./img/paseo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .eventos__linea {
@@ -464,7 +477,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   font-size: 1.5rem;
   line-height: 1.16;
   font-weight: 600;
@@ -530,8 +543,6 @@ input[type="radio1"]:checked~label {
   align-content: center;
 }
 
-
-
 h1:hover {
   animation: swing 1s ease;
   animation-iteration-count: 1;
@@ -567,9 +578,8 @@ h1:hover {
   width: 80%;
   height: auto;
   max-width: 100%;
-
-
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   border-radius: 20px;
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.291);
   transform: scale(var(--escala, 1));
@@ -577,7 +587,7 @@ h1:hover {
 }
 
 .box__slider img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   cursor: pointer;
   transition: 1s;
 }
@@ -717,11 +727,15 @@ footer {
 
 }
 
+iframe {
+  border-radius: 10px;
+}
+
 .container__footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: auto;
   margin-top: 100px;
 }
@@ -729,24 +743,28 @@ footer {
 .box__footer {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0px;
+  margin-top: -7%;
+  margin-bottom: 1px;
 }
 
-.box__footer .logo img {
-  width: 180px;
-  margin-top: -20%;
+.logo img {
+  width: 300px;
+  float: right;
 }
 
 .terms p {
   color: white;
+  text-align: center;
+  margin-top: 5%; 
 }
 
 .terms {
-  max-width: 350px;
-  margin-top: 20px;
+  max-width: 550px;
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
+
 }
 
 .box__footer h2 {
@@ -799,6 +817,8 @@ footer {
 
   .box__footer {
     padding: 10px;
+    margin-top: -1px;
+    margin-bottom: 1px;
   }
 }
 

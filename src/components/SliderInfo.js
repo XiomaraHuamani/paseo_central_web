@@ -11,13 +11,13 @@ export const SliderInfo = () => {
                 <div className={classNames(styles.container__general, "row row-cols-2 ")}
                     style={{ width: "2160", height: "650" }}>
                     <div class={classNames(styles.box__celda1, "col ")}>
-                        No te pierdas ningún plan<br />
-                        Con nuestro mall Arequipeño<br />
-                        Paseo central.
+                        <h6> Con nuestro mall Arequipeño<br />
+                            No te pierdas ninguno plan<br />
+                            Paseo central.</h6>
                     </div>
                     <div class={classNames(styles.box__celda2, "col ")}>
                         <div class={classNames(styles.box__celda1, "row ")}>
-                            Califícanos
+                                Califícanos
                             <div className="row justify-content-center ">
                                 <hr className={styles.eventos__linea} size="20" />
                             </div>

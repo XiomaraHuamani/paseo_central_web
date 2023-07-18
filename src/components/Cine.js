@@ -29,7 +29,7 @@ export const Cine = () => {
                   pauseOnMouseEnter: true,
                 }}
                 modules={[Autoplay]}
-                className="mySwiper"
+                className={styles.cine_mySwiper}
                 breakpoints={{
                   // when window width is >= 320px
                   320: {

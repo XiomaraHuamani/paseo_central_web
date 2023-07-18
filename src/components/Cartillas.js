@@ -48,41 +48,41 @@ export const Cartillas = () => {
             },
           }}
         >
+          <center>
+            <SwiperSlide>
+              <div className={styles.cart__viwer}>
+                <img src={img1} />
+                <div className="row">
+                  <a>comidas</a>
+                </div>
+              </div>
+            </SwiperSlide>
 
-          <SwiperSlide>
-            <div className={styles.cart__viwer}>
-              <img src={img1} />
-              <div className="row">
-                <a>comidas</a>
+            <SwiperSlide>
+              <div className={styles.cart__viwer}>
+                <img src={img2} />
+                <div className="row">
+                  <a>comidas</a>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className={styles.cart__viwer}>
-              <img src={img2} />
-              <div className="row">
-                <a>comidas</a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className={styles.cart__viwer}>
+                <img src={img3} />
+                <div className="row">
+                  <a>comidas</a>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.cart__viwer}>
-              <img src={img3} />
-              <div className="row">
-                <a>comidas</a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className={styles.cart__viwer}>
+                <img src={img4} />
+                <div className="row">
+                  <a>comidas</a>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={styles.cart__viwer}>
-              <img src={img4} />
-              <div className="row">
-                <a>comidas</a>
-              </div>
-            </div>
-          </SwiperSlide>
-
+            </SwiperSlide>
+          </center>
         </Swiper>
 
       </div>
