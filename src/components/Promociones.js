@@ -18,7 +18,6 @@ export const Promociones = () => {
       <div className={classNames(styles.promos, "container-fluid")}>
         <h1>Promociones del mes</h1>
         <Swiper
-<<<<<<< HEAD
             slidesPerView={3}
             spaceBetween={30}
             className={styles.myswiper_promo}
@@ -49,38 +48,6 @@ export const Promociones = () => {
               },
             }}
           >
-=======
-          slidesPerView={3}
-          spaceBetween={30}
-          className={styles.myswiper_promo}
-          breakpoints={{
-            // when window width is >= 320px
-            320: {
-              slidesPerView: 1,
-              spaceBetween: 10,
-              slidesPerGroup: 1,
-            },
-            // when window width is >= 480px
-            480: {
-              slidesPerView: 1,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-            },
-            600: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-            },
-
-            // when window width is >= 640px
-            640: {
-              slidesPerView: 3,
-              spaceBetween: 30,
-              slidesPerGroup: 3,
-            },
-          }}
-        >
->>>>>>> 69af21fc4744d2f189da3bc75608d3d7aa956c55
           <SwiperSlide>
             <div className={classNames("card", styles.promo_card)}>
               <div>

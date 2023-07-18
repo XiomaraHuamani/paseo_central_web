@@ -36,13 +36,12 @@ export const Footer = () => {
 
               <i class="fab fa-facebook-square"></i> Facebook
 
-              <i class="fab fa-facebook"></i> Facebook
 
             </a>
             <a href="https://www.tiktok.com/@paseocentral">
               <i class="fa-brands fa-tiktok"></i> Tiktok
-        
-             
+
+
             </a>
             <a href="https://api.whatsapp.com/send?phone=%2B51977896323&data=AWA1QntFk6vv7i7_17rDf9_PEBl85TeGgkK2wh_GHo94ZVUDmrBIhVeeL79byae5k4WmaKSE_35f4CfHvIBSrrXS_79-0bTqHTlQ4PPwCqmr0tC5QMvn6hgxoAZ82lDfLy_1RoIV5KKu59T_r5nnsvKmYSBlYoOjLJVzBFK0aIl7JAfazlnvvJvuJIL8VM2lAfYfRu5c7JbBjAPmCTr3qVSCBGGXuGt2Zog-mRSZebCXmjIClQ30gnGZkLqrX9kzSkSLqidgPgIOrNiPqUNpVpdih-Tfu5McEkHzbKEfpv7ZIqEq1tU&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR0rIprqORwRFwcHji-VGrl9tViu64fEko_1WfPhIZ7vass9aj5Ageir2to">
               <i class="fa-brands fa-whatsapp"></i> whatsapp{" "}
