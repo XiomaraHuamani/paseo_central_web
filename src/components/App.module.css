@@ -727,15 +727,11 @@ footer {
 
 }
 
-iframe {
-  border-radius: 10px;
-}
-
 .container__footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   margin-top: 100px;
 }
@@ -743,28 +739,24 @@ iframe {
 .box__footer {
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  margin-top: -7%;
-  margin-bottom: 1px;
+  padding: 20px;
 }
 
-.logo img {
+.box__footer .logo img {
   width: 300px;
-  float: right;
+  margin-top: 1%;
 }
 
 .terms p {
   color: white;
-  text-align: center;
-  margin-top: 5%; 
 }
 
 .terms {
-  max-width: 550px;
+  max-width: 350px;
+  margin-top: 20px;
   font-weight: 500;
   color: #ffffff;
   font-size: 20px;
-
 }
 
 .box__footer h2 {
